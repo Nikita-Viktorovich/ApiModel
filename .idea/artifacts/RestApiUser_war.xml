@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="RestApiUser:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>RestApiUser</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ApiServer.war">
+      <element id="artifact" artifact-name="RestApiUser:war exploded" />
+    </root>
+  </artifact>
+</component>
